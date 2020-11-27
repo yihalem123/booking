@@ -1,0 +1,242 @@
+#bannerImage{
+    padding-top:55px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(../images/bannerblack.png);
+    background-size:cover;
+}
+
+#bannerContent{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+#bannerImage1{
+    padding-top:55px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(../images/lacase1.jpg);
+    background-size:cover;
+}
+
+#bannerContent1{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+.product-item {
+    text-align: center; }
+    .product-item figure {
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 30px;
+      height: 600px;
+    
+    }
+      .product-item figure:before {
+        z-index: 2;
+        -webkit-transition: .4s all ease;
+        -o-transition: .4s all ease;
+        transition: .4s all ease;
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        position: absolute;
+        content: "";
+        left: 20px;
+        right: 20px;
+        top: 20px;
+        bottom: 20px;
+        opacity: 0;
+        visibility: hidden; }
+     }
+    .product-item h3 {
+      font-size: 18px; }
+      .product-item h3 a {
+        color: #000; }
+        .product-item h3 a:hover {
+          color: #f16821; }
+    .product-item p {
+      line-height: 1.4;
+      font-size: 13px; }
+    .product-item .meta-icons {
+      margin-left: 5px;
+      margin-bottom: 30px;
+      margin-right: 50px;
+      font-size: 13px; }
+      .product-item .meta-icons a {
+        font-size: 16px;
+        position: relative;
+        top: 2px; }
+    .product-item:hover figure:before {
+      opacity: 1;
+      visibility: visible;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
+      .block-heading-1 span {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: .1em;
+        font-weight: bold; }
+      
+      .block-heading-1 h2 {
+        font-size: 3rem;
+        color: #ff8b00; }
+        .font-gray-5, .block-heading-1 span {
+          color: #b8b8b8; }
+          .site-section {
+            padding: 2.5em 0; }
+            @media (min-width: 768px) {
+              .site-section {
+                padding: 5em 0; } }
+            .site-section.site-section-sm {
+              padding: 4em 0; }
+              .site-section {
+                padding: 7rem 0; }
+                @media (max-width: 991.98px) {
+.site-section{
+  background: gray;
+}                 
+.image-container{
+  background: darkblue;
+}
+#inptex{
+  width: 300px;
+  height: 10px;
+  outline none;
+  border: none;
+  padding: 10px;
+  background: #ecc720;
+  color: white;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3), 0 7px 21px 0 rgba(0,0,0,0.20);
+}
+.form_container{
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  background: #4c6c96;
+  height: 60%;
+  color: white;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3), 0 7px 21px 0 rgba(0,0,0,0.20);
+}
+.sub{
+  border:none;
+  border-radius: 20px;
+  outline: none;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 104%;
+  padding: 8px;
+  color: #0ebe75;
+  transition-duration: .5s;
+}
+.sub:hover{
+  border:none;
+  border-radius: 20px;
+  outline: none;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 104%;
+  padding: 8px;
+  color: #0ebe75;
+  transition-duration: .5s;
+  background:yellowgreen;
+}
+.azsx{
+  font-family: sans-serif;
+  background: transparent;
+  color:rgb(8, 8, 8);
+  background: turquoise;
+  border: sandybrown;
+  display: block;
+}   
+.form-container {
+  margin: 20px;
+  padding: 35px;
+  
+  color: white;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+.input-cnt {
+  display: flex; /* display the icon and the input in a line */
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.input-cnt:last-child {
+  margin-bottom: 0px;
+}
+.input-cnt > i {
+  min-width: 40px; /* set a minimum width for the icon */
+  padding: 10px; /* make sure the icon is centered vertically */
+  text-align: center; /* horizontally center the icon */
+  background: lightgrey;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  color: #0076ff;
+}
+/* change styles when focused */
+.input-cnt:hover > i {
+  background: #0076ff;
+  color: rgb(247, 155, 155);
+}
+/* style the inputs */
+.input-cnt > input[type="text"], .input-cnt > input[type="password"] {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border: 1px solid rgb(102, 177, 187);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 60%;
+  align-content: center;
+}
+/* style the submit button */
+.input-cnt > input[type="submit"] {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 105%;
+  padding: 8px;
+  color: #0076ff;
+  background: rgb(238, 205, 19);
+  transition-duration: .5s;
+}
+/* add a hover effect for the submit button */
+.input-cnt > input[type="submit"]:hover {
+  color: white;
+  background: #0076ff;
+}
+.azsx{
+font-family: sans-serif;
+background: transparent;
+color:rgb(8, 8, 8);
+background: turquoise;
+border: sandybrown;
+display: block;
+} 
+.sub{
+  border:none;
+  border-radius: 20px;
+  outline: none;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 104%;
+  padding: 8px;
+  color: #0ebe75;
+  transition-duration: .5s;
+}                            
